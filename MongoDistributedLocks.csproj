@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>MongoDistributedLocks</PackageId>
+    <PackageDescription>A simple distributed locking library relying on MongoDB for atomicity</PackageDescription>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <RootNamespace>MongoDistributedLocks</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.10.4" />
+  </ItemGroup>
+
+</Project>

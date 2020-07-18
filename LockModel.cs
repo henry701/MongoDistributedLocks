@@ -1,10 +1,10 @@
 
 using System;
 
-namespace mongodb_locks
+namespace MongoDistributedLocks
 {
     public class LockModel
-    {        
+    {
         public string Id { get; set; }
 
         /// <summary>
